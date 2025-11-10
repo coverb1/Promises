@@ -1,7 +1,7 @@
 function promise1() {
     return new Promise((resolve,reject)=>{
         setTimeout(() => {
-            resolve("this is the first promise")
+            resolve("amanda")
         }, 2000);
     })
 }
