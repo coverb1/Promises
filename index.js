@@ -1,7 +1,11 @@
 function promise1() {
     return new Promise((resolve,reject)=>{
         setTimeout(() => {
-            resolve("this is the first amae")
+<<<<<<< HEAD
+            resolve("this is the first promise")
+=======
+            resolve("amanda")
+>>>>>>> test-branch
         }, 2000);
     })
 }
